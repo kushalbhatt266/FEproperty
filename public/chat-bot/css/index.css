@@ -1,0 +1,256 @@
+
+.container1 {
+	width: 1296px;
+	margin: 50px auto 20px;
+}
+/*.chatpopup {
+    width: 500px;
+    margin: 50px auto 20px;
+}*/
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: #ccc 2px 2px 1px;
+	padding-bottom: 5px;
+}
+@media (max-width: 767px){
+  .wrapper {
+    position: fixed;
+    right: 0px!important;
+    bottom: 70px;
+    width: auto!important;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-bottom: 5px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 1pxsolid #eee;
+    z-index: 1111;
+}
+input.chat-bot-input {
+    width: 100%!important;
+    margin: 0px 0px!important;
+    height: 12px;
+}
+.input input {
+  width: 100%!important;
+}
+button.chat-bot-button{
+  margin-top: 5px!important;
+}
+button.chat-bot-button{
+    margin-left: 0px!important;
+}
+}
+
+.input.chat-bot-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.chat {
+	border: 1px solid #ccc;
+	height: 320px;
+	overflow-y: scroll;
+	background-color: white;
+	border-radius: 10px 0 0 10px;
+}
+button.chat-bot-button {
+    padding: 8px 10px;
+    background: #007a27;
+    color: #fff;
+    border: 1px solid #007a27;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.chat div {
+	margin: 10px 10px 15px;
+	line-height: 20px;
+	padding-bottom: 0px;
+}
+input.chat-bot-input {
+    width: 240px!important;
+    margin: 0px 0px!important;
+    height: 12px;
+}
+
+a.chat-bot-button {
+    padding: 6px 10px!Important;
+    border: 1px solid #007a27!important;
+    background-color: #007a27!important;
+}
+
+.chat .party {
+	font-weight: bold;
+}
+
+.chat .you {
+	color: red;
+}
+
+.chat .other {
+	color: blue;
+}
+
+.chat .text {
+	
+}
+
+.busy {
+	position: absolute;
+	padding: 3px 0;
+	color: #666;
+	display: none;
+	font-size: 11px;
+}
+
+.input {
+	margin-top: 20px;
+}
+
+.input input {
+	vertical-align: top;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px 5px;
+	width: 275px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.input a {
+	vertical-align: top;
+	float: right;
+	font-weight: 500;
+	border: 1px solid #007a27;
+	background-color: #007a27;
+	padding: 6px 35px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.input a:hover {
+	background-color: #ddd;
+	cursor: pointer;
+	color: #000;
+}
+.icon_bot p {
+    cursor: pointer;
+}
+
+
+.chat-btn {
+    position: fixed;
+    right: 14px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 1111;
+}
+
+.chat-btn .close {
+    display: none;
+}
+
+.chat-btn i {
+    transition: all 0.9s ease;
+}
+
+#check:checked~.chat-btn i {
+    display: block;
+    pointer-events: auto;
+    transform: rotate(180deg);
+}
+
+#check:checked~.chat-btn .comment {
+    display: none;
+}
+
+.chat-btn i {
+    font-size: 22px;
+    color: #fff !important;
+    background-color: #007a27;
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.chat-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+}
+.header h6 {
+    font-size: 15px;
+}
+
+.wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 75px;
+    width: 445px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-bottom: 5px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    z-index: 1111;
+}
+
+#check:checked~.wrapper {
+    opacity: 1;
+}
+
+.header {
+    padding: 13px;
+    background-color: #007a27;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+}
+
+.chat-form {
+    padding: 22px;
+}
+
+.chat-form input,
+textarea,
+button {
+    margin-bottom: 10px;
+}
+
+.chat-form textarea {
+    resize: none;
+}
+
+.form-control:focus,
+.btn:focus {
+    box-shadow: none
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+    background-color: #007a27;
+    border: #007a27;
+}
+
+#check {
+    display: none !important;
+}
